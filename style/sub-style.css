@@ -1,0 +1,17 @@
+body{
+    background: rgb(255, 252, 235);
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgb(121, 147, 115);
+    font-size: 20px;
+}
+
+h1, h2{
+    color: rgb(70, 103, 62);
+}
+
+img{
+    width: 400px;
+    height: 300px;
+    border: 20px rgb(142, 164, 137) solid;
+    border-radius: 20px;
+}
