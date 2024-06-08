@@ -1,20 +1,40 @@
 body{
     background: rgb(97, 131, 89);
     font-family: 'Trebuchet MS', sans-serif;
-    color: white;
 }
 
-h1{
-    font-size: 50px;
+.otitle{
+    background-color: rgb(253, 243, 230);
+    color: rgb(160, 187, 150);
+    font-size: 30px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 50px;
+    text-align: center;
+    border: 10px rgb(160, 187, 150) solid;
+    border-radius: 30px;
+}
+
+button{
+    background-color:  rgb(132, 162, 125);
+    color: rgb(253, 243, 230);
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    margin: 16px auto;
+    width: 200px;
+    height: 50px;
+    border: 3px rgb(253, 243, 230) solid;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(160, 187, 150);
 }
 
 a{
-    color: white;
     text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
 }
 
-a:hover{
-    color: rgb(193, 210, 178);
-}
